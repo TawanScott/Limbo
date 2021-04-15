@@ -29,7 +29,7 @@ require( 'includes/header.php' ) ;
 </form> 
 
 <div class="w3-center landing-image">
-  <img src="https://jobs.marist.edu/images/1.jpg" class="w3-round w3-card"> 
+  <img src="marist.jpg" class="w3-round w3-card"> 
 </div>
 
 <div class="w3-row">
