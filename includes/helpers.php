@@ -579,7 +579,7 @@ function search($dbc, $searchword) {
 
 	 if(mysqli_num_rows($results) === 0) {
 		echo '<h2 class="w3-center" style="font-size: 18px; padding-top: 40px;">Your search result does not exist. Please search for a new item</h2>';
-		echo '<p class="w3-center"><a class="w3-center" href="landing.php" >Return to search</a></p>';
+		echo '<p class="w3-center"><a class="w3-center" href="index.php" >Return to search</a></p>';
 	} else if( $results )
 	{
 		echo '<h1 class="page-heading">Search Result</h1>';
@@ -607,7 +607,7 @@ function search($dbc, $searchword) {
 
   		# End the table
   		echo '</TABLE>';
-  		echo '<p class="w3-center"><a href="landing.php">Return to search</a></p>';
+  		echo '<p class="w3-center"><a href="index.php">Return to search</a></p>';
 
   		# Free up the results in memory
   		mysqli_free_result( $results ) ;
